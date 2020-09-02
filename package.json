@@ -8,7 +8,7 @@
 	},
 	"scripts": {
 		"pretest": "standard",
-		"test": "nyc tape test/**/*.js | tap-nyc",
+		"test": "nyc tape test/**/*.js",
 		"start": "node index"
 	},
 	"repository": {
@@ -33,7 +33,6 @@
 		"nock": "^13.0.4",
 		"nyc": "^15.1.0",
 		"standard": "^14.3.4",
-		"tap-nyc": "^1.0.3",
 		"tape": "^5.0.1"
 	}
 }
