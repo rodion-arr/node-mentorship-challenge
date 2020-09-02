@@ -2,22 +2,29 @@
 
 > **The Node.js Examples Initiative is looking for a qualified mentee to join the initiative.**
 
-## This challenge will test your ability to:
+## How to run:
 
-1. Write code in Node.js beyond "Hello World"
-2. Identify and write useful tests
-3. Fetch data from an API and serve JSON content as response
-4. Render out data using dynamic template files
-5. Add the correct license to your project
-6. Follow guidelines and instructions
+```bash
+git clone https://github.com/rodion-arr/node-mentorship-challenge.git
+cd node-mentorship-challenge
+npm i
+npm test
+npm run start
+```
+
+Routes:
+
+- List `package.json` dependencies - http://localhost:3000/dependencies
+- Get minimal secure Node.js versions - http://localhost:3000/minimum-secure
+- Get latest release versions - http://localhost:3000/latest-releases
 
 ## Requirements:
 
-- Use the API [here](https://nodejs.org/dist/index.json)
-- Licensed as MIT
+- [x] Use the API [here](https://nodejs.org/dist/index.json)
+- [x] Licensed as MIT
   - In `package.json`
   - License file included
-- Use the following packages:
+- [x] Use the following packages:
   - `bent` for all requests
   - `semver` for version comparisons and other operations
   - `hbs` to render handlebars templates
